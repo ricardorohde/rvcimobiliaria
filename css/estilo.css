@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+*{margin:0; padding:0;}
+body{width:100%; height:100%; background:url(../images/wood_bg.jpg) repeat;}
+p{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px;}
+h1{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:20px; color:#813737;}
+h2{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:18px; color:#813737;}
+h3{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:15px; color:#813737;}
+h4{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; color:#813737;}
+a img{border:none;}
+
+#root{width:970px; margin:auto;}
+#top{width:970px; height:220px; background:url(../images/wall_bg.jpg) no-repeat;}
+#logo{width:300px; height:90px; padding:20px; float:left;}
+#menu{height:71px; background:url(../images/menu-bg.gif) repeat-x; clear:both;}
+#menu ul{ list-style:none;}
+#menu ul li{float:left;}
+#menu ul li a{ margin:6px 0 5px; padding:20px 25px 19px; display:block; font-size:18px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; border-right:#333 solid 1px; background:url(../images/menu-bg-out.gif) repeat-x;}
+#menu ul li span{ margin:6px 0 5px; padding:20px 25px 19px; display:block; font-size:18px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#fec150; text-decoration:none; border-right:#333 solid 1px; background:url(../images/menu-bg-out.gif) repeat-x;}
+#menu ul li a:hover{background:url(../images/menu-bg-over.gif) repeat-x;}
+#pesquisar-menu{float:right; margin:20px;}
+.input-pesquisar{width: 136px;
+padding: 10px 95px 10px 10px;
+background: #fff;
+border: 1px solid #bbb;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;}
+.botao-pesquisar{width: 80px;
+margin-left: -87px;
+padding: 6px 8px 7px;
+border: none;
+color: #fff;
+background: #fec150;
+cursor: pointer;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+font-size:14px}
+input[type="submit"]::-moz-focus-inner {border:0;}
+
+.container{width:850px; margin:auto; clear:both;}
+#grid-home{width:850px; background:#fff; margin:20px 0 0; padding-bottom:20px;}
+#grid-home h1 {width:820px; margin:0 15px; border-bottom:solid 1px #813737; padding:15px 0 5px;}
+#grid-home h3 {width:245px; margin:0 10px; border-bottom:solid 1px #813737; padding:10px 0 5px;}
+#grid-home img {margin:10px; float:left;}
+#grid-home .tabela{ width:95px; height:112px; float:right; margin:10px 10px 10px 0;}
+#grid-home .quarto{margin:10px 5px 10px 0;}
+#grid-home .garagem{margin:10px 0;}
+.quarto{ width:19px; margin:5px 5px 5px 0; background:url(../images/sprite-icon.png) no-repeat; background-position:0 -22px; padding-left:30px; font-family:Tahoma, Geneva, sans-serif; color:#666; font-size:15px; float:left; border-right:1px #CCC solid;}
+.banheiro{ width:19px; margin:5px 5px 5px 0; background:url(../images/sprite-icon.png) no-repeat; background-position:0 -40px; padding-left:30px; font-family:Tahoma, Geneva, sans-serif; color:#666; font-size:15px; float:left; border-right:1px #CCC solid;}
+.garagem{ width:10px; margin:5px 0; background:url(../images/sprite-icon.png) no-repeat; background-position:0 0; padding-left:30px; font-family:Tahoma, Geneva, sans-serif; color:#666; font-size:15px; float:left;}
+#grid-home ul{ list-style:none;}
+#grid-home ul li{width:265px; height:219px; float:left; margin:15px 0 0 10px; background:#fff; border:dotted 2px #CCC;}
+#grid-home p{ margin:10px;}
+#grid-home h4{ border-bottom:1px #CCC solid; padding-bottom:5px;}
+#grid-home a{text-decoration:none;}
+#grid-home a span{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:11px; top:5px; position:relative; color:#000;}
+#grid-home a span:hover{color:#813737;}
+
+#assinatura{width:850px; height:50px;  margin:20px 0;}
+#assinatura p{font-size:13px; color:#fff;}
+#assinatura-esquerda{width:700px; float:left;}
+#assinatura-direita{width:64px; float:right;}
+
+#pagina-interna{width:850px; background:#fff; padding-bottom:20px;}
+#pagina-interna h1{width:820px; border-bottom:solid 1px #813737; padding:15px 0 5px; margin:0 15px;}
+#pagina-interna .coluna-esquerda{ float:left; width:500px; margin:15px 20px 20px 15px;}
+#pagina-interna .coluna-direita{ float:left; width:300px; margin:15px 15px 0 0;}
+#pagina-interna .coluna-esquerda h1{width:500px; border-bottom:solid 1px #813737; padding:0 0 5px; margin:0;}
+#pagina-interna .coluna-direita h1{width:300px; border-bottom:solid 1px #813737; padding:0 0 5px; margin:0;}
+#pagina-interna .coluna-esquerda h2{width:500px; border-bottom:solid 1px #813737; padding:0 0 5px; margin:0;}
+#pagina-interna .coluna-direita h2{width:300px; border-bottom:solid 1px #813737; padding:0 0 5px; margin:0;}
+#pagina-interna .coluna-esquerda p, #pagina-interna .coluna-direita p{ color:#999; font-family:Tahoma, Geneva, sans-serif; margin-top:10px; font-size:12px;}
+#pagina-interna .coluna-esquerda p b, #pagina-interna .coluna-direita p b{ color:#813737;}
+#pagina-interna .coluna-esquerda p a, #pagina-interna .coluna-direita p a{ color:#f90;}
+#pagina-interna .coluna-esquerda p a:hover, #pagina-interna .coluna-direita p a:hover{ color:#813737;}
+.icone-imovel{float:right;}
+
+#grid-slide ul{ list-style:none;}
+#grid-slide ul li{width:194px; height:219px; float:left; margin:15px 0 0 15px; background:#ddd;}
+#grid-slide p{ margin:5px;}
+#grid-slide h4{float:left; margin:5px;}
+#grid-slide a{ float:right; margin:0 5px 5px 0;  text-decoration:none;}
+#grid-slide a span{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:10px; right:5px; top:-8px; position:relative; color:#000;}
+#grid-slide a span:hover{color:#813737;}
+
+.contato span.yes{ color:#093;}
+.contato span{ color:#f00; margin-top:10px; font-family:Tahoma, Geneva, sans-serif; display:block;}
+.contato label span{color:#333; font-family:Tahoma, Geneva, sans-serif; font-size:14px; display:inline;}
+.contato label input, .contato label textarea{color:#333; font-family:Tahoma, Geneva, sans-serif; padding:3px; font-size:13px;}
+.contato label select {color:#333; font-family:Tahoma, Geneva, sans-serif; padding:3px; font-size:13px;}
+.contato ul { list-style:none;}
+.contato ul li{ margin-top:10px;}
+.button-form{width: 80px;
+padding: 6px 8px 7px;
+border: none;
+color: #fff;
+background: #fec150;
+cursor: pointer;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+font-size:14px}
+
+
+.ficha-tecnica { list-style:none;}
+.ficha-tecnica li{font-family:Tahoma, Geneva, sans-serif; color:#333; font-size:15px; padding:5px;}
+.ficha-tecnica li.odd{ background-color:#eee;}
+
+.caracteristicas {list-style:none;}
+.caracteristicas li{font-family:Tahoma, Geneva, sans-serif; color:#333; font-size:15px; padding:0px 10px 10px 20px; width:220px; float:left; background:url(../images/bullet-itens.gif) no-repeat;}
+.button-agendar{width: 280px;
+padding: 10px 20px 10px 60px;
+border: none;
+color: #fff;
+background:url(../images/icon-agenda.png) no-repeat #fec150 20px 10px;
+cursor: pointer;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+font-size:16px;
+font-family:Tahoma, Geneva, sans-serif;
+text-decoration:none;}
+
+/* SGI */
+
+.container-sgi{width:970px; margin:auto; clear:both;}
+#pagina-interna-sgi{width:970px; background:#fff; padding-bottom:20px;}
+#pagina-interna-sgi h1{width:970px; border-bottom:solid 1px #813737; padding:15px 0 5px; margin:0 15px;}
+#pagina-interna-sgi .coluna-esquerda{ float:left; width:650px; margin:15px 20px 20px 15px;}
+#pagina-interna-sgi .coluna-direita{ float:left; width:300px; margin:15px 15px 0 0;}
+#pagina-interna-sgi .coluna-esquerda h1{width:650px; border-bottom:solid 1px #813737; padding:0 0 5px; margin:0;}
+#pagina-interna-sgi .coluna-direita h1{width:300px; border-bottom:solid 1px #813737; padding:0 0 5px; margin:0;}
+#pagina-interna-sgi .coluna-esquerda h2{width:650px; border-bottom:solid 1px #813737; padding:0 0 5px; margin:0;}
+#pagina-interna-sgi .coluna-direita h2{width:300px; border-bottom:solid 1px #813737; padding:0 0 5px; margin:0;}
+#pagina-interna-sgi .coluna-esquerda p, #pagina-interna .coluna-direita p{ color:#999; font-family:Tahoma, Geneva, sans-serif; margin-top:10px; font-size:12px;}
+#pagina-interna-sgi .coluna-esquerda p b, #pagina-interna .coluna-direita p b{ color:#813737;}
+#pagina-interna-sgi .coluna-esquerda p a, #pagina-interna .coluna-direita p a{ color:#f90;}
+#pagina-interna-sgi .coluna-esquerda p a:hover, #pagina-interna .coluna-direita p a:hover{ color:#813737;}
+.icone-imovel{float:right;}
+
+.tabela-lista{margin-top:10px;}
+.tabela-lista thead td{background:url(../assets/bg-thead.jpg) repeat-x; padding:6px; height:18px; font-size:12px;}
+.tabela-lista td{background:url(../assets/bg-td-out.jpg) repeat-x; padding:6px; height:18px; font-size:12px; border-bottom:#666 1px solid;}
+.tabela-lista a{color:#933;}
+
+.botao-sgi{text-decoration:none; float:right;}
+
+.fieldset-sgi{ }
+.fieldset-sgi h2{background:url(../assets/bg-td-out.jpg) repeat-x; padding:5px 3px; height:18px; border-bottom:#666 1px solid;}
+
+.ficha-tecnica{width:300px; float:left; margin-right:20px; list-style:none;}
+.highlight{background-color:#ffefef; border:1px #f00 solid; font-size:13px;}
+#titulo-print {display:none}
+
+
+.label-sgi{font-weight:bold; color:#666;}
